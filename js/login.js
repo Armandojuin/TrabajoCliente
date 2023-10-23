@@ -3,17 +3,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const inputUsuario = document.getElementById("username");
   const inputContrasena = document.getElementById("password");
 
-  formulario.addEventListener("submit", function (event) {
+  formulario.addEventListener("submit", function (evento) {
     if (!validarUsuario(inputUsuario.value)) {
       alert("Nombre de usuario incorrecto, por favor escriba otro diferente.");
-      event.preventDefault();
+      evento.preventDefault();
     } else {
       alert("Usuario correcto.");
     }
 
     if (!validarContrasena(inputContrasena.value)) {
       alert("Contraseña incorrecta, por favor escriba otra diferente.");
-      event.preventDefault();
+      evento.preventDefault();
     } else {
       alert("Contraseña correcta.");
     }
