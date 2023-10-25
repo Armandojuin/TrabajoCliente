@@ -6,6 +6,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
 
+
     //Como no tenemos backed vamos a mostrar lo enviado por la consola para combrobar que funciona
     console.log("Nombre: " + name);
     console.log("Email: " + email);
