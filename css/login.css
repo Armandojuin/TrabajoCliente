@@ -1,6 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: bisque;
+    background-color: #1693a5;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,8 +10,9 @@ body {
     height: 100vh; 
 }
 
+
 .container-login {
-    background-color: cadetblue;
+    background-color: #d8d8c0;
     border: 1px solid #ccc;
     padding: 40px;
     text-align: center;
@@ -37,7 +38,7 @@ input {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -46,11 +47,11 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #1693a5;
 }
 
 .footer-container {
-    background-color: burlywood;
+    background-color: #f0f0d8;
     text-align: center;
     color: #000;
     padding: 15px;
