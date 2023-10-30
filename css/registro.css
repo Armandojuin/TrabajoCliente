@@ -28,6 +28,14 @@ body {
     width: 100%;
 }
 
+#logo{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    top: -25px;
+}
+
 /*----------------------------------------------- RELACIONADO CON EL FORMULARIO -----------------------------------------------------------------*/
 
 #formu{
