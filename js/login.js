@@ -7,15 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!validarUsuario(inputUsuario.value)) {
       alert("Nombre de usuario incorrecto, por favor escriba otro diferente.");
       evento.preventDefault();
-    } else {
-      alert("Usuario correcto.");
     }
 
     if (!validarContrasena(inputContrasena.value)) {
       alert("Contraseña incorrecta, por favor escriba otra diferente.");
       evento.preventDefault();
-    } else {
-      alert("Contraseña correcta.");
     }
   });
 
